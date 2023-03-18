@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "JtY7uaAY4MslagQ+XYtrYO18j9Ev+CFE/e2BIdp1S5h6PvWM9ohNkUu6JQCz9G7lcFNcMiEnYBlbIiGrcIlIRg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hamuo\\source\\repos\\tictactoe\\tictactoe-android\\tictactoe-android.iOS\\tictactoe-android.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hamuo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\hamuo\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\hamuo\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

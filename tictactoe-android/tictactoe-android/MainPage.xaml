@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tictactoe_android.MainPage">
+
+    <StackLayout x:Name="Menu_Page" Spacing="100" BackgroundColor="Black">
+        <StackLayout BackgroundColor="black">
+            <Label Text="Tic Tac Toe" HorizontalTextAlignment="Center" TextColor="White" FontSize="35"/>
+            <Image Source="tiii.pang" WidthRequest="280" HeightRequest="280" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </StackLayout>
+        
+        <StackLayout BackgroundColor="Transparent">
+            <Button x:Name="single_player"
+                Text="Single Player"
+                HorizontalOptions="Center"
+                Padding="90, 40"
+                FontSize="19"
+                WidthRequest="320"
+                Clicked="single_player_clicked"
+                CornerRadius="200"
+                FontAttributes="Bold"
+                BackgroundColor="GreenYellow"
+            />
+
+            <Button x:Name="multi_player"
+                Text="Multi Player"
+                HorizontalOptions="Center"
+                Padding="90, 40"
+                FontSize="19"
+                WidthRequest="320"
+                Clicked="multi_player_clicked"
+                CornerRadius="200"
+                FontAttributes="Bold"
+                BackgroundColor="GreenYellow"
+            />
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

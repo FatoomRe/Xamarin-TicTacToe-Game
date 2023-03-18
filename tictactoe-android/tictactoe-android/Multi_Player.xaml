@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tictactoe_android.Multi_Player">
+    <ContentPage.Content>
+        <StackLayout  x:Name="Multi_Player_Page" BackgroundColor="Black">
+            <StackLayout  BackgroundColor="Black" Orientation="Horizontal" Spacing="4">
+                <ImageButton x:Name="back_multi"
+                             Scale="5"
+                             Source="back_icon.png"
+                             HeightRequest="10"
+                             WidthRequest="10"
+                             Margin="25, 0"
+                             Clicked="Back_Multi_Clicked"
+                             BackgroundColor="Transparent"
+                            />
+                <Label Text="Multi Player"  Margin="40, 0" TextColor="GreenYellow" FontSize="35"/>
+            </StackLayout>
+            <StackLayout HorizontalOptions="Center" Spacing="60">
+                <Label x:Name="display_multi_game_status" TextColor="White" Text="X turn" HorizontalTextAlignment="Center" FontSize="40" />
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Button x:Name="multi_1_1" CornerRadius="20" FontSize="60" TextColor="GreenYellow" WidthRequest="100" HeightRequest="100" Clicked="Multi_Each_Btn_Clicked"/>
+                        <Button x:Name="multi_1_2" CornerRadius="20" FontSize="60" TextColor="GreenYellow" WidthRequest="100" HeightRequest="100" Clicked="Multi_Each_Btn_Clicked"/>
+                        <Button x:Name="multi_1_3" CornerRadius="20" FontSize="60" TextColor="GreenYellow" WidthRequest="100" HeightRequest="100" Clicked="Multi_Each_Btn_Clicked"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Button x:Name="multi_2_1" CornerRadius="20" FontSize="60" TextColor="GreenYellow" WidthRequest="100" HeightRequest="100" Clicked="Multi_Each_Btn_Clicked"/>
+                        <Button x:Name="multi_2_2" CornerRadius="20" FontSize="60" TextColor="GreenYellow" WidthRequest="100" HeightRequest="100" Clicked="Multi_Each_Btn_Clicked"/>
+                        <Button x:Name="multi_2_3" CornerRadius="20" FontSize="60" TextColor="GreenYellow" WidthRequest="100" HeightRequest="100" Clicked="Multi_Each_Btn_Clicked"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Button x:Name="multi_3_1" CornerRadius="20" FontSize="60" TextColor="GreenYellow" WidthRequest="100" HeightRequest="100" Clicked="Multi_Each_Btn_Clicked"/>
+                        <Button x:Name="multi_3_2" CornerRadius="20" FontSize="60" TextColor="GreenYellow" WidthRequest="100" HeightRequest="100" Clicked="Multi_Each_Btn_Clicked"/>
+                        <Button x:Name="multi_3_3" CornerRadius="20" FontSize="60" TextColor="GreenYellow" WidthRequest="100" HeightRequest="100" Clicked="Multi_Each_Btn_Clicked"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Center">
+                    <Button x:Name="multi_reset"
+                            CornerRadius="20"
+                            BackgroundColor="Green"
+                            WidthRequest="110"
+                            HeightRequest="60"
+                            Clicked="Multi_Reset_Clicked"
+                            Text="Reset"
+                            FontSize="20"
+                            FontAttributes="Bold"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
